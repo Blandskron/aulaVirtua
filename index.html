@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Aula Virtual - Proyecto HTML y CSS</title>
+  <meta name="description" content="Aula virtual básica creada solo con HTML semántico.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <header>
+    <h1>Aula Virtual Blandskron</h1>
+    <p>Plataforma sencilla para gestionar cursos, materiales y comunicación con estudiantes.</p>
+  </header>
+
+  <nav aria-label="Navegación principal">
+    <ul>
+      <li><a href="#presentacion">Inicio</a></li>
+      <li><a href="#cursos">Cursos</a></li>
+      <li><a href="#recursos">Recursos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="presentacion" aria-labelledby="titulo-presentacion">
+      <h2 id="titulo-presentacion">Bienvenido a tu Aula Virtual</h2>
+      <p>
+        Esta aula virtual está pensada para organizar cursos, compartir materiales,
+        publicar contenidos y facilitar la comunicación entre docentes y estudiantes,
+        utilizando únicamente HTML y CSS.
+      </p>
+
+        <section aria-label="Acceso de usuarios">
+        <h3>Accede a tu cuenta</h3>
+        <p>Si ya eres parte del aula o quieres unirte, usa las siguientes opciones:</p>
+
+        <nav aria-label="Acciones de usuario">
+            <ul>
+            <li><a href="./pag/login.html">Iniciar sesión</a></li>
+            <li><a href="./pag/registro.html">Registrarse</a></li>
+            </ul>
+        </nav>
+        </section>
+    </section>
+
+    <section id="cursos" aria-labelledby="titulo-cursos">
+      <h2 id="titulo-cursos">Cursos disponibles</h2>
+
+      <article>
+        <h3>Introducción al Desarrollo Web</h3>
+        <p>
+          Curso básico para aprender la estructura de una página utilizando HTML y
+          hojas de estilo con CSS, ideal para principiantes.
+        </p>
+      </article>
+
+      <article>
+        <h3>Fundamentos de UX y UI</h3>
+        <p>
+          Explora conceptos básicos de experiencia de usuario, interfaz y buenas
+          prácticas de diseño para proyectos web educativos.
+        </p>
+      </article>
+    </section>
+
+    <section id="recursos" aria-labelledby="titulo-recursos">
+      <h2 id="titulo-recursos">Recursos del Aula</h2>
+      <p>
+        En esta sección se podrán listar guías, lecturas, enlaces a videos,
+        presentaciones y tareas asociadas a cada curso.
+      </p>
+      <ul>
+        <li>Guías en PDF</li>
+        <li>Presentaciones de clases</li>
+        <li>Enlaces a videos educativos</li>
+        <li>Foros y espacios de discusión (futuros)</li>
+      </ul>
+    </section>
+
+    <section id="contacto" aria-labelledby="titulo-contacto">
+      <h2 id="titulo-contacto">Contacto</h2>
+      <p>
+        Si tienes dudas sobre el aula virtual, la inscripción a los cursos o
+        propuestas de mejora, puedes enviar un mensaje al equipo docente.
+      </p>
+      <form>
+        <fieldset>
+          <legend>Formulario de contacto</legend>
+
+          <label for="nombre">Nombre completo:</label>
+          <input id="nombre" name="nombre" type="text">
+
+          <label for="correo">Correo electrónico:</label>
+          <input id="correo" name="correo" type="email">
+
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje"></textarea>
+
+          <button type="submit">Enviar mensaje</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Aula Virtual Blandskron &copy; 2025. Proyecto educativo creado solo con HTML y CSS.</p>
+  </footer>
+</body>
+</html>
