@@ -1,0 +1,33 @@
+header {
+  background-color: var(--color-primary-pastel);
+  border-bottom: 2px solid var(--color-border);
+  padding: 1.8rem 1rem;
+  text-align: center;
+  box-shadow: var(--shadow-soft);
+  border-radius: 0 0 20px 20px;
+}
+
+header nav[aria-label="Volver al inicio"] {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+header nav[aria-label="Volver al inicio"] a {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+header nav[aria-label="Volver al inicio"] a:hover {
+  text-decoration: underline;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+header h2 {
+  font-size: 1.2rem;
+  color: var(--color-muted);
+}
