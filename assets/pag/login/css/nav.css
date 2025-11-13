@@ -1,0 +1,47 @@
+/* NAV PRINCIPAL DEL HOME */
+nav[aria-label="Navegación principal"] {
+  background-color: var(--color-primary-light);
+  box-shadow: var(--shadow-soft);
+  border-radius: 0 0 20px 20px;
+}
+
+nav[aria-label="Navegación principal"] ul {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0.75rem 1rem;
+  display: flex;
+  gap: 1.2rem;
+}
+
+nav[aria-label="Navegación principal"] a {
+  color: white;
+  font-weight: 600;
+}
+
+nav[aria-label="Navegación principal"] a:hover {
+  text-decoration: underline;
+}
+
+/* NAV LOGIN / REGISTRO */
+nav[aria-label="Acciones de usuario"] ul {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  list-style: none;
+}
+
+nav[aria-label="Acciones de usuario"] a {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  border-radius: var(--radius-base);
+  background-color: var(--color-primary);
+  color: #ffffff;
+  box-shadow: var(--shadow-soft);
+  font-weight: 600;
+  transition: transform 0.15s ease-in-out, background-color 0.2s;
+}
+
+nav[aria-label="Acciones de usuario"] a:hover {
+  transform: scale(1.07);
+  background-color: var(--color-primary-light);
+}

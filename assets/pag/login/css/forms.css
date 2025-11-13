@@ -1,0 +1,51 @@
+form {
+  margin-top: 1rem;
+}
+
+fieldset {
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-base);
+  padding: 1.5rem;
+  background-color: white;
+  box-shadow: var(--shadow-soft);
+}
+
+legend {
+  font-weight: 700;
+  color: var(--color-primary);
+  padding: 0 1rem;
+  font-size: 1.1rem;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: var(--radius-base);
+  border: 2px solid var(--color-border);
+  background-color: var(--color-primary-pastel);
+  font-size: 1rem;
+  transition: border-color 0.2s, background-color 0.2s;
+  color: var(--color-text);
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  background-color: var(--color-bg);
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+form button {
+  margin-top: 1rem;
+}
